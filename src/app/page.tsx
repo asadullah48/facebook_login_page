@@ -8,16 +8,16 @@ export default function Home() {
         <title>Facebook Login</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
-    <div className="bg-gray-100 min-h-screen flex flex-col md:flex-row items-center justify-center p-4">
+    <div className="bg-green-150 min-h-screen flex flex-col md:flex-row items-center justify-center p-4">
       {/* Left side */}
       <div className="text-center md:text-left text-2xl w-full md:w-1/2 px-4 md:px-11 mb-8 md:mb-0">
         <Image src={facebook} width={300} height={100} alt="facebook logo" className="mx-auto md:mx-0" />
         <p className="mt-4 md:mt-0 text-xl md:text-2xl md:ml-8">
-          Facebook helps you connect and share with the people in your life.
+          Facebook helps you connect and share with the people in your surrounding.
         </p>
       </div>
       {/* Right side */}
-      <div className="bg-white shadow-sm  flex flex-col p-6 rounded-xl w-full md:w-1/3">
+      <div className="bg-yellow shadow-sm  flex flex-col p-6 rounded-xl w-full md:w-1/3">
         <input
           className="my-2 border shadow-sm border-gray-300 p-3 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
           type="text"
